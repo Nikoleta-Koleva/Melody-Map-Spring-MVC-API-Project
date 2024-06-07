@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody Map - Music Playlist</title>
+    <link rel="stylesheet" href="../styles/playliststyles.css">
+</head>
+<body>
+<div class="container">
+    <div class="left-section">
+        <h1>Musical Map Playlist</h1>
+        <div class="add-song">
+            <input type="text" id="song-title" placeholder="Song Title">
+        </div>
+        <div class="spotify-results">
+            <h2>Spotify Search Results</h2>
+            <ul id="spotify-results">
+                <!-- Spotify search results will be displayed here -->
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container2">
+    <div class="right-section">
+        <h2 id="playlistName">My Playlist</h2>
+        <ul id="playlist">
+            <!-- Songs will be displayed here -->
+        </ul>
+        <div>
+            <p id="userId"></p>
+        </div>
+    </div>
+</div>
+<script src="../static/playlistscript.js"></script>
+</body>
+</html>
